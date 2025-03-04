@@ -1,0 +1,35 @@
+.button {
+    background-color: #007bff; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 0.5rem 1rem; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en forme de main */
+    font-size: 1rem; /* Taille de la police */
+    transition: background-color 0.3s ease; /* Animation au survol */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Changement de couleur au survol */
+  }
+  
+  .button:active {
+    background-color: #004080; /* Changement de couleur au clic */
+  }
+  
+  /* Variantes de bouton */
+  .button.primary {
+    background-color: #007bff;
+  }
+  
+  .button.secondary {
+    background-color: #6c757d;
+  }
+  
+  .button.success {
+    background-color: #28a745;
+  }
+  
+  .button.danger {
+    background-color: #dc3545;
+  }
