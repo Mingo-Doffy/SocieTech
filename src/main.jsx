@@ -11,7 +11,7 @@ import './index.css';
 const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/SocieTech">
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Accueil />} />
